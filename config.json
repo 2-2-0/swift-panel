@@ -1,0 +1,8 @@
+[
+    { "id": 1, "label": "swift-panel home", "url": "https://github.com/2-2-0/swift-panel"},
+    { "id": 2, "label": "220 - website", "url": "https://www.2-2-0.online"},
+    { "id": 3, "label": "220 - instagram", "url": "https://instagram.com/220nh"},
+    { "id": 4, "label": "Stack Overflow", "url": "https://stackoverflow.com" },
+    { "id": 5, "label": "My Favorite Blog (Example)", "url": "https://www.example.com" },
+    { "id": 6, "label": "MDN Documentation", "url": "https://developer.mozilla.org/en-US/" }
+]

@@ -1,0 +1,97 @@
+/* Custom CSS for Dark Theme and Centering */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Share Tech Mono', monospace;
+    color: #e0e0e0;
+    
+    /* Background properties set via JavaScript for dynamic URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    /* Flexbox for centering the main-panel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* main-panel Styling (Static/Responsive Size) */
+.main-panel {
+    width: 90vw; /* Take 90% of viewport width */
+    max-width: 480px; /* Max size for desktop */
+    min-width: 280px;
+    padding: 30px 20px;
+    
+    /* Applied Gradient Background */
+    background: linear-gradient(180deg, #000000, #202020); 
+    
+    border-radius: 16px;
+    /* Deeper shadow for contrast against the background image */
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7); 
+    text-align: center;
+    border: 1px solid #333; /* Subtle border */
+    
+    /* Ensure panel content is above the background image */
+    z-index: 10;
+    position: relative;
+}
+
+/* Title Styling */
+.main-panel h1 {
+    color: #f0f0ff; /* Light white/blue header color */
+    margin-bottom: 35px;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Pill (Link Box) Styling */
+.pill {
+    /* Flexbox is used to center the text content */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+    margin: 15px auto;
+    text-decoration: none;
+    padding: 15px 20px; /* Base padding */
+    border-radius: 50px; /* Pill shape */
+    
+    /* Color and Effects */
+    background-color: #0933a1; /* Pill color */
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+    /* Background Image Properties (Used when 'image' is set in JS) */
+    background-repeat: no-repeat;
+    background-position: 20px center; /* Position the image on the left */
+    background-size: 24px 24px; /* Size of the background image */
+}
+
+.pill:hover {
+    background-color: #072a81; /* Adjusted hover color */
+    transform: translateY(-3px); /* Stronger lift effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.pill:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    .main-panel {
+        padding: 20px 15px;
+        width: 95vw;
+        max-width: none;
+    }
+    .main-panel h1 {
+        font-size: 1.5em;
+    }
+}
