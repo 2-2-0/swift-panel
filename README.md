@@ -33,14 +33,14 @@ Edit the constants at the top of the file within the `// --- CONFIGURATION ---` 
 
 ```
 ConstantPurpose
-`HEADER_TEXT`
-Sets the main title displayed at the top of the panel (currently `'swift-panel'`).
+HEADER_TEXT
+Sets the main title displayed at the top of the panel (currently 'swift-panel').
 
-`BACKGROUND_IMAGE_URL`
-Defines the filename for the full-screen background image (currently `'swift-panel.jpg'`). Ensure the file is in the same directory.
+BACKGROUND_IMAGE_URL
+Defines the filename for the full-screen background image (currently 'swift-panel.jpg'). Ensure the file is in the same directory.
 
-`CONFIG_FILE`
-The name of the JSON file containing the links (default is `'config.json'`).
+CONFIG_FILE
+The name of the JSON file containing the links (default is 'config.json').
 ```
 
 ### B. Configuring Links (`config.json`)
@@ -49,11 +49,11 @@ This JSON file holds an array of objects, where each object defines a link "pill
 Each link object supports the following fields:
 
 ```
-`label` The text displayed on the button (e.g., "Google Search").
+'label' The text displayed on the button (e.g., "Google Search").
 
-`url` The destination URL when the pill is clicked.
+'url' The destination URL when the pill is clicked.
 
-`image` (optional) If provided, this URL (e.g., a path to an icon file) is used as a small background image/icon on the left side of the pill.
+'image' (optional) If provided, this URL (e.g., a path to an icon file) is used as a small background image/icon on the left side of the pill.
 ```
 
 Example of `config.json` structure:
@@ -76,14 +76,14 @@ Example of `config.json` structure:
 
 ## 4. Credits and Attribution
 If you redistribute this work, please provide credit to the original author:
-**220 (E Castañeda) [2-2-0.online](2-2-0.online)**
+**220 (E Castañeda)** [2-2-0.online](https://2-2-0.online)
 
 ## 5. License (GNU General Public License v3.0)
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with this program. If not, see [](https://www.gnu.org/licenses/).
+You should have received a copy of the GNU General Public License along with this program. If not, see [www.gnu.org/licenses/](https://www.gnu.org/licenses/).
 
 
 
